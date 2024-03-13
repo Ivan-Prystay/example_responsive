@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/35e06493aed2f14d19a0b8d735c06b62?family=AvertaStd-Black"
+      rel="stylesheet"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/19b8f54eb1f074fb01efb1c4f02e9623?family=AvertaStd-Regular"
+      rel="stylesheet"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/447315c0c330fd423c8e1cc18024669d?family=AvertaStd-Bold"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Happy Coaching</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="navigation">
+          <a href="#top">
+            <img src="./images/svg/logo.svg" alt="Logo" />
+          </a>
+          <ul class="navigation__list">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#extra-salespage">Extra Salespage</a></li>
+            <li>
+              <button class="menu_button" type="button">
+                Get your free guide now
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+    <!-- *        Open Mobile menu         -->
+    <button
+      type="button"
+      class="open-mob-menu"
+      data-menu-open
+      
+    >
+      <svg class="icon mob-menu__icon" width="40" height="40">
+        <use href="./images/icons.svg#icon-menu-open"></use>
+      </svg>
+    </button>
+
+    </div>
+
+    <!--*                Mobile menu                         -->
+    <div class="mob-menu is-hidden" data-menu>
+        <div class="mob-menu-container">
+          <button type="button" class="close-mob-menu" data-menu-close>
+            <svg class="icon mob-menu__icon" width="40" height="40">
+              <use href="./images/icons.svg#icon-menu-close"></use>
+            </svg>
+          </button>
+
+          <div class="wraper-menu__nav">
+            <ul class="mob-menu__list">
+              <li class="mob-menu__item">
+                <a
+                  href="./index.html"
+                  class="link mob-menu__link mob-menu__link--active"
+                  >Home</a
+                >
+              </li>
+              <li class="mob-menu__item">
+                <a href="#services" class="link mob-menu__link"
+                  >Services
+                </a>
+              </li>
+              <li class="mob-menu__item">
+                <a href="#about-us" class="link mob-menu__link"
+                  >About us</a
+                >
+              </li>
+            </li>
+            <li class="mob-menu__item">
+              <a href="#extra-salespage" class="link mob-menu__link"
+                >Extra Salespage</a
+              >
+            </li>
+            <li class="mob-menu__item">
+              <button class="menu_button" type="button">
+                Get your free guide now
+              </button>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </header>
+
+    <!--**** MAIN ****-->
+    <main>
+      <section class="hero">
+        <span class="vector">
+          <img src="./images/svg/vector.svg" alt="vector" />
+        </span>
+        <div class="hero__container">
+          <div class="hero__block">
+            <p class="hero_subtitle">
+              Proven strategies backed by science for success.
+            </p>
+            <h1 class="hero__title">
+              Live life at the <br />
+              full potential
+            </h1>
+            <p class="hero__description">
+              I help people to discover their true potential and live a
+              fulfilling
+              <br class="hero__br" />
+              life...&nbsp; Discover the simple 3 steps that I discovered to
+              hack
+              <br class="hero__br" />
+              productivity. It just works and it is begin using backed by
+              science.
+              <br class="hero__br" />
+              Wanna transform your life?
+            </p>
+            <button class="menu_button hero__button" type="button">
+              Get your free guide now
+            </button>
+          </div>
+          <div class="hero__block-photo">
+            <img
+              class="hero__photo"
+              src="./images/photo/hero_1.png"
+              alt="hero"
+            />
+            <div class="success__rate">
+              <img
+                style="display: block;"
+                src="./images/svg/target.svg"
+                alt="target"
+              />
+              <div class="success__rate__text">
+                <p class="percent">100%</p>
+                <p class="rate__year">Success rate this year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="can__help">
+        <img src="./images/svg/vector_2.svg" alt="vector_2" />
+        <div class="can__help__container">
+          <div class="can__help__tittle__wrarpper">
+            <h2>
+              I can help you in these <br />
+              particular areas.
+            </h2>
+          </div>
+          <div class="can__help__tittle__description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+              veniam.
+            </p>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+          </div>
+        </div>
+        <div class="can__help__list">
+          <ul>
+            <li>
+              <img src="./images/svg/frame.svg" alt="notes" />
+              <h3>1:1 Coaching</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+                veniam.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/svg/browser-internet-web-network-diagram_1.svg"
+                alt="comment"
+              />
+              <h3>Consultation</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+                veniam.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/svg/browser-internet-web-network-diagram_2.svg"
+                alt="people"
+              />
+              <h3>Group Coaching Sessions</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+                veniam.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
